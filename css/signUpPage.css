@@ -1,0 +1,182 @@
+.sign-up-body .container-fluid {
+    width: 100vw;
+    height: 700px;
+    padding: 50px 50px;
+    display: flex;
+    background: url(../img/pattern-fworks-light.svg) bottom no-repeat;
+
+}
+
+.sign-up-body .container-fluid .left-side{
+    width: 40%;
+    height: 100%;
+    padding-left: 19px;
+    
+}
+
+.left-side .content {
+    width: 415px;
+    height: 470px;
+    background-color: #fef9f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px  rgb(0, 0, 0,.1);
+  
+
+}
+
+.left-side .content .image .frnt-graphic{
+    position: absolute;
+    top: 116px;
+    left: 42px;
+    width: 475px;
+    height: 390px;
+    transform: translateY(25px);
+    animation-name: gliding;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+
+}
+
+    @keyframes gliding {
+       from{
+        transform: translateY(-5px);
+       }
+        to {
+        transform: translateY(5px);
+       }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Right Side */
+
+
+
+
+.sign-up-body .container-fluid .right-side{
+    width: 50%;
+    height: 100%;
+    color: black;
+}
+.sign-up-body .container-fluid .right-side h2{
+    font-size: 30px;
+    color: #333;
+}
+.sign-up-body .container-fluid .right-side .radio{
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    align-items: center;
+    height: 50px;
+}
+.sign-up-body .container-fluid .right-side .radio span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sign-up-body .container-fluid .right-side .radio .radio-btn{
+    align-items: baseline;
+    display: flex;
+    gap: 10px;
+}
+
+.sign-up-body .container-fluid .right-side .radio input{
+    width: 20px;
+    height: 20px;
+    accent-color: var(--orange);
+}
+
+
+.sign-up-body .container-fluid .right-side .input-text {
+    width: 100%;
+}
+.sign-up-body .container-fluid .right-side .input-text .name input,
+.sign-up-body .container-fluid .right-side .input-text .password input,
+.sign-up-body .container-fluid .right-side .input-text .email input{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 19px;
+    outline: none;
+   border: 1px solid #cccccc;
+}
+
+
+.sign-up-body .container-fluid .right-side .input-text .number{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-body .container-fluid .right-side .input-text .number select{
+    width: 13%;
+    height: 50px;
+    font-size: 15px;
+   border: 1px solid #cccccc;
+
+}
+.sign-up-body .container-fluid .right-side .input-text .number input{
+    width: 85%;
+    height: 50px;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 19px;
+   border: 1px solid #cccccc;
+   outline: none;
+    /* background-color: red; */
+    
+}
+
+.sign-up-body .container-fluid .right-side .term{
+    text-align: center;
+    margin: 10px;
+}
+
+.sign-up-body .container-fluid .right-side button{
+    width: 100%;
+    height: 50px;
+    font-size: 19px;
+    outline: none;
+    border: none;
+    background-color: var(--orange);
+    color: white;
+    margin: 10px 0;
+}
+
+.sign-up-body .container-fluid .right-side .newhere{
+    text-align: center;
+    margin: 20px 0;
+}
+.sign-up-body .container-fluid .right-side .newhere a{
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: 500;
+}
+.sign-up-body .container-fluid .right-side .newhere h3{
+    
+    font-size: 25px;
+    
+}

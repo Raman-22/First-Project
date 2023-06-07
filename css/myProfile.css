@@ -1,0 +1,107 @@
+.business-profile .business-profile-type .first-sec .options .indi label,
+.business-profile .business-profile-type .first-sec .options .firm label,
+.business-profile .business-profile-type .first-sec .options .firm-p label,
+.business-profile .business-profile-type .first-sec .options .cmp label{
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.business-profile .business-profile-type .first-sec .options .indi input,
+.business-profile .business-profile-type .first-sec .options .firm input,
+.business-profile .business-profile-type .first-sec .options .firm-p input,
+.business-profile .business-profile-type .first-sec .options .cmp input{
+    width: 18px;
+    height: 18px;
+    accent-color: #e60f0f;
+  
+}
+
+
+.business-profile .business-profile-type .second-sec .options .res-pr label,
+.business-profile .business-profile-type .second-sec .options .com-pr label{
+    font-size: 15px;
+}
+
+.business-profile .business-profile-type .second-sec .options .com-pr input,
+.business-profile .business-profile-type .second-sec .options .res-pr input{
+    width: 18px;
+    height: 18px;
+    accent-color: #e60f0f;
+  
+}
+
+.business-profile .addr .address label,
+.business-profile .addr .city label,
+.contact label{
+    font-size: 15px;
+}
+
+.business-profile .addr .address input,
+.contact input{
+    width: 70%;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    /* padding-left: 20px;
+    padding-top: 10px; */
+    padding: 0px 0 10px 20px;
+    border-bottom: 1px solid #f1eeee;
+}
+.business-profile .addr .address input:focus,
+.business-profile .addr .city .input-g input:focus,
+.business-profile .addr .city .input-g select:focus,
+.contact input:focus
+{
+    border-bottom: 1px solid #e93305;
+    caret-color: #e93305;
+
+}
+
+.business-profile .addr .city .input-g{
+    width: 70%;
+}
+
+.business-profile .addr .city .input-g input{
+    width: 45%;
+    outline: none;
+    border: none;
+    font-size: 13px;
+   
+    padding: 0px 0 10px 20px;
+    border-bottom: 1px solid #f1eeee;
+
+}
+.business-profile .addr .city .input-g select{
+    padding: 0px 0 10px 20px;   
+    width: 45%;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #f1eeee;
+    
+}
+
+.gender .inner-content .gender-group  label,
+.gender .inner-content .dob label{
+    font-size: 15px;
+    
+}
+
+.gender .inner-content .gender-group  input{
+    width: 18px;
+    height: 18px;
+    accent-color: #e60f0f;
+
+}
+
+.gender .inner-content .dob input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcece;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
